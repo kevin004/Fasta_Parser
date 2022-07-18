@@ -1,0 +1,27 @@
+Coding Tasks
+============
+
+Write a program for each of the following:
+
+Problem 1)	Recursively find all FASTQ files in a directory and report each file name and the percent of sequences in that file that are greater than 30 nucleotides long.
+
+Problem 2)	Given a FASTA file with DNA sequences, find the 10 most frequent sequences. Return those sequences and the number of times each occurs in the input file.
+
+NOTE:
+    * Input files are provided.
+    * Please consider providing one or more example test cases.
+    * A Python (2/3) solution is ideal, as our code-base is primarily in Python.
+    * Please avoid using 3rd party bioinformatics tools to solve these problems.
+
+Optional Problem (Not Required)
+===============================
+
+This problem is optional, and we do not require or expect a solution; it's provided as an opportunity to demonstrate a solution to a more complex problem, if you so choose.
+
+Given a TSV containing un-annotated genomic coordinates, write a program that looks up the gene annotation of each coordinate in a GTF file.
+	-	Input:
+		o	TSV formatted file with un-annotated genomic coordinates (Chromosome and Position)
+		o	GTF formatted file with genes as annotated coding regions.
+	-	Output:
+		o	Annotated file of gene name that input position overlaps.
+	-	Hint: Most of the sequence reads come from a small portion of the genome. Try to use this information to improve performance, if possible.
